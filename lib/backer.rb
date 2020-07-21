@@ -1,4 +1,4 @@
-class backer
+class Backer
   
   attr_reader :name, :backed_projects
   
@@ -10,7 +10,7 @@ class backer
     
   end
   
-  def backed_projects(projects)
+  def back_projects(projects)
     
     backed_projects << projects
     
